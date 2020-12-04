@@ -1,1 +1,8 @@
-console.log("Hey!! The script is working from app.js")
+//input
+var username = prompt("Give me Username ");
+
+//processing
+var welcomeMessage = "This script works!! " + username;
+
+//output
+alert(welcomeMessage);

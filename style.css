@@ -1,0 +1,11 @@
+:root {
+    --navcolor : #D963FF
+}
+
+body {
+    background-color: #536DFE;
+}
+
+.nav {
+    text-align: center;
+}

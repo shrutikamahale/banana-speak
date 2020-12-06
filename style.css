@@ -7,8 +7,22 @@ body {
     background-color: #FEF3C7; 
 }
 
+
 h1 {
     color: #1D4ED8;
     font-weight: bold;
     font-size: xx-large;
+}
+
+.container {
+    max-width: 100px;
+    margin: auto;
+    padding: 15px 32px;
+}
+
+.userinput {
+    margin: auto;
+    display: block;
+    max-width: 1500px;
+    padding: 15px 32px;
 }

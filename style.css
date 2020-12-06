@@ -4,14 +4,36 @@
 }
 
 body {
-    background-color: #FEF3C7; 
+    background-image: url(image/minion.jpg);
+    /* background-color: #FEF3C7;  */
+    font-family: 'Roboto', sans-serif;
 }
 
-
 h1 {
-    color: #1D4ED8;
+    color: #92400E;
     font-weight: bold;
+    padding-right: 5%;
     font-size: xx-large;
+}
+
+#text{
+    margin: auto;
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: larger;
+}
+
+#output {
+    margin: auto;
+    display: block;
+    max-width: 1000px;
+    padding: 15px 32px;
+    display: block;
+    margin-top: 1rem;
+    border: 1px solid black;
+    background-color: white;
+    font-size: large;
 }
 
 .container {
@@ -25,4 +47,7 @@ h1 {
     display: block;
     max-width: 1500px;
     padding: 15px 32px;
+    display: block;
+    margin-top: 1rem;
+    font-size: large;
 }

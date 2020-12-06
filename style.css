@@ -1,11 +1,14 @@
 :root {
     --navcolor : #D963FF
+    --h1color  : #1D4ED8
 }
 
 body {
-    background-color: #536DFE;
+    background-color: #FEF3C7; 
 }
 
-.nav {
-    text-align: center;
+h1 {
+    color: #1D4ED8;
+    font-weight: bold;
+    font-size: xx-large;
 }

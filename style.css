@@ -1,20 +1,30 @@
 :root {
     --navcolor : #D963FF
     --h1color  : #1D4ED8
+    --width-break: 600px;
 }
 
 body {
     background-image: url(image/minion.jpg);
     /* background-color: #FEF3C7;  */
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 h1 {
-    color: #92400E;
+    color: #374151;
     font-weight: bold;
     padding-right: 5%;
     font-size: xx-large;
 }
+
+h2 {
+    color: #92400E;
+    font-weight: bold;
+    padding-right: 5%;
+    font-size: larger;  
+}
+
 
 #text{
     margin: auto;
@@ -51,3 +61,42 @@ h1 {
     margin-top: 1rem;
     font-size: large;
 }
+
+element.style {
+    font-size: medium;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    padding: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #60A5FA;
+    text-align: center;
+}
+
+
+
+

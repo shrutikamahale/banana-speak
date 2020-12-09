@@ -32,6 +32,10 @@ h2 {
     font-size: larger;  
 }
 
+h3 {
+    color: #FDE68A;
+}
+
 
 #text{
     margin: auto;
@@ -105,6 +109,9 @@ footer {
     text-align: center;
 }
 
+#footer-end {
+    color: #FDE68A;
+}
 
 
 

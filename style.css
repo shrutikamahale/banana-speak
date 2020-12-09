@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet');
 :root {
     --navcolor : #D963FF
     --h1color  : #1D4ED8
@@ -5,14 +6,20 @@
 }
 
 body {
-    background-image: url(image/minion.jpg);
+    background-image: url("image/minion.jpg");
     /* background-color: #FEF3C7;  */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
     margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
 }
 
 h1 {
-    color: #374151;
+    color: #111827;
     font-weight: bold;
     padding-right: 5%;
     font-size: xx-large;
@@ -32,6 +39,7 @@ h2 {
     width: 90%;
     text-align: center;
     font-size: larger;
+    color: black;
 }
 
 #output {
@@ -93,7 +101,7 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 1rem;
-    background-color: #60A5FA;
+    background-color: #3B82F6;
     text-align: center;
 }
 
